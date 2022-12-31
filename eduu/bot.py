@@ -47,7 +47,7 @@ class Eduu(Client):
         await del_restarted()
 
         start_message = (
-            "✅ <b>GuardBot started!</b>\n\n"
+            "✅ <b>Guard nakama started!</b>\n\n"
             f"🔖 <b>Version:</b> <code>v{__version__} ({__version_code__})</code>\n"
             f"🔥 <b>Pyrogram:</b> <code>v{pyrogram.__version__}</code>"
         )
@@ -63,4 +63,4 @@ class Eduu(Client):
 
     async def stop(self):
         await super().stop()
-        logger.warning("GuardBot stopped, Bye!")
+        logger.warning("Guard nakama stopped, Bye!")
