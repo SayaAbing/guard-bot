@@ -19,7 +19,7 @@ class Eduu(Client):
 
         super().__init__(
             name=name,
-            app_version=f"GuardBot v{__version__}",
+            app_version=f"Executive v{__version__}",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=TOKEN,
@@ -47,7 +47,7 @@ class Eduu(Client):
         await del_restarted()
 
         start_message = (
-            "✅ <b>Guard nakama started!</b>\n\n"
+            "✅ <b>Executive started!</b>\n\n"
             f"🔖 <b>Version:</b> <code>v{__version__} ({__version_code__})</code>\n"
             f"🔥 <b>Pyrogram:</b> <code>v{pyrogram.__version__}</code>"
         )
@@ -63,4 +63,4 @@ class Eduu(Client):
 
     async def stop(self):
         await super().stop()
-        logger.warning("Guard nakama stopped, Bye!")
+        logger.warning("Executive stopped, Bye!")
