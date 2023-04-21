@@ -35,7 +35,7 @@ class Eduu(Client):
         self.start_time = time.time()
 
         logger.info(
-            "GuardBot running with Pyrogram v%s (Layer %s) started on @%s. Hi!",
+            "Executive running with Pyrogram v%s (Layer %s) started on @%s. Hi!",
             pyrogram.__version__,
             layer,
             self.me.username,
