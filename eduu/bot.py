@@ -35,7 +35,7 @@ class Eduu(Client):
         self.start_time = time.time()
 
         logger.info(
-            "Executive running with Pyrogram v%s (Layer %s) started on @%s. Hi!",
+            "AntiSpamZ running with Pyrogram v%s (Layer %s) started on @%s. Hi!",
             pyrogram.__version__,
             layer,
             self.me.username,
@@ -47,7 +47,7 @@ class Eduu(Client):
         await del_restarted()
 
         start_message = (
-            "✅ <b>Executive started!</b>\n\n"
+            "✅ <b>AntiSpamZ started!</b>\n\n"
             f"🔖 <b>Version:</b> <code>v{__version__} ({__version_code__})</code>\n"
             f"🔥 <b>Pyrogram:</b> <code>v{pyrogram.__version__}</code>"
         )
